@@ -65,3 +65,5 @@ template <typename T> // member functions defined outside the class need their o
 int Array<T>::getLength() { return m_length; } // note class name is Array<T>, not Array
  
 #endif
+
+Array<int> intArray(12);
